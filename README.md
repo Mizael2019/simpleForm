@@ -93,6 +93,6 @@ em ambos os casos o git tenta fazer o merge das alterações automaticamente.
 ---
 
 ### Créditos de estudo:
-> Ferramenta simples para estudo de Git / Github, utilizando aulas do Professor **Gustavo Guanabara** *Curso em Vídeo* <br>
+> Estudo de Git / Github, utilizando aulas do Professor **Gustavo Guanabara** *Curso em Vídeo* <br>
 > Curso Udemy: https://www.udemy.com/course/git-e-github/<br>
 > FOLHA DE DICAS DE GIT: https://training.github.com/downloads/pt_BR/github-git-cheat-sheet.pdf

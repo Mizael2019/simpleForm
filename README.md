@@ -22,7 +22,8 @@ Markdown - Readme
 ---
 
 ## Obtendo um repositório clonando:
-1 - Crie uma cópia de trabalho em um repositório local executando o comando **(*git clone /caminho/para/o/repositório*)** caminho do projeto no próprio Github.<br>
+1 - Crie uma cópia de trabalho em um repositório local executando o comando<br> **(*git clone /caminho/para/o/repositório*)** 
+caminho do projeto no próprio Github.<br>
 Quando usar um servidor remoto, seu comando será: **(*git clone usuário@servidor:/caminho/para/o/repositório*)**
 
 ---
@@ -40,8 +41,8 @@ Seus repositórios locais consistem em três "árvores" administradas pelo git n
 ## Adicionando e Confirmando alterações
 
 1 - Após propor mudanças e alterações em um projeto, você deve adicioná-las ao (Index) usando:<br>
-**(*git add <arquivo>*)*** - para um arquivo em específico<br>
-**(*git add *)**  para todos as alterações.<br> 
+**(*git add <arquivo>)** - para um arquivo em específico<br>
+**(git add *)**  para todos as alterações.<br> 
 > Este é o primeiro processo do fluxo de trabalho básico do git.
 
 2 - Para realmente confirmar as mudanças (commit) digite o comando: **(*git commit -m "alterações resumidas"*)**.
@@ -56,7 +57,7 @@ Os arquivos serão enviados para a (HEAD), porém ainda não estarão no reposit
 > Altere a master para qualquer ramo (branch) desejado, enviando suas alterações.
 
 Caso não tenha clonado um repositório existente e quer conectar seu repositório a um servidor remoto, adicione com
-**(*git remote add origin <servidor>*)** agora você pode enviar suas alterações para o servidor remoto escolhido.
+**(git remote add origin <servidor>)** agora você pode enviar suas alterações para o servidor remoto escolhido.
 
 ---
 
@@ -79,19 +80,19 @@ Caso não tenha clonado um repositório existente e quer conectar seu repositór
 
 ## Atualizando e Mesclando
 
-1 - Caso deseje atualizar seu repositório local com a mais nova versão que tenha ajustes de outros Devs, execute **(*git pull*)**
-na sua pasta de trabalho para obter e fazer merge (mesclar) alterações remotas.
+1 - Caso deseje atualizar seu repositório local com a mais nova versão que tenha ajustes de outros Devs, execute<br>
+ **(*git pull*)** na sua pasta de trabalho para obter e fazer merge (mesclar) alterações remotas.
 
-2 - Para fazer merge de algum branch ao seu branch ativo (ex. master), use **(*git merge <nome do branch>*)**,
+2 - Para fazer merge de algum branch ao seu branch ativo (ex. master), use **(*git merge <nome do branch>)**,
 em ambos os casos o git tenta fazer o merge das alterações automaticamente. 
 
 > Infelizmente, nem sempre é possível e causa conflitos. Resolva os conflitos manualmente exibido pelo git em seu editor preferido para fazer o merge destes conflitos.
 
-3 - Depois de alterar, você precisa marcá-los como merged com **(*git add <arquivo>*)** antes de fazer o merge das alterações, você pode também pré-visualizá-as usando **(*git diff <branch origem> <branch destino>*)**
+3 - Depois de alterar, você precisa marcá-los como merged com **(*git add <arquivo>)*** antes de fazer o merge das alterações, você pode também pré-visualizá-as usando **(*git diff <branch origem> <branch destino>)**
 
 ---
 
 ### Créditos de estudo:
-> Ferramenta simples para estudo de Git / Github, utilizando aulas do Professor **Gustavo Guanabara** *Curso em Vídeo* 
-> Curso Udemy: https://www.udemy.com/course/git-e-github/
+> Ferramenta simples para estudo de Git / Github, utilizando aulas do Professor **Gustavo Guanabara** *Curso em Vídeo* <br>
+> Curso Udemy: https://www.udemy.com/course/git-e-github/<br>
 > FOLHA DE DICAS DE GIT: https://training.github.com/downloads/pt_BR/github-git-cheat-sheet.pdf

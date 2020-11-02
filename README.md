@@ -1,23 +1,23 @@
-# Git básico Universidade QA
+# Universidade QA
 
 Estudando **Git básico**
 
 ---
 
-## Resumo projeto
+# Resumo projeto
 Criado um form simples para demostrar conhecimento em Git básico.
 
 ---
 
 ## Linguagem / Ferramentas
-HTML / CSS - form
-Git
+HTML / CSS - form<br>
+Git<br>
 Markdown - Readme
 
 ---
 
 ## Criando um novo repositório:
-1 - Crie uma nova pasta, abra-a com o gitbash ou terminal escolhido e execute o comando *git init* para criar um novo repositório.
+1 - Crie uma nova pasta, abra-a com o gitbash ou terminal escolhido e execute o comando _*git init*_ para criar um novo repositório.
 
 ---
 
@@ -32,9 +32,9 @@ Quando usar um servidor remoto, seu comando será *git clone usuário@servidor:/
 
 Seus repositórios locais consistem em três "árvores" administradas pelo git na seguinte ordem:
 
-> Working Directory -  que contém os arquivos vigentes. 
-> Index (stage) - que funciona como uma área temporária alocando suas alterações.
-> HEAD - que aponta para o último commit (confirmação) que você fez.
+> Working Directory -  que contém os arquivos vigentes.<br>
+> Index (stage) - que funciona como uma área temporária alocando suas alterações.<br>
+> HEAD - que aponta para o último commit (confirmação) que você fez.<br>
 
 ---
 

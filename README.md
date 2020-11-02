@@ -10,7 +10,7 @@ Criado um form simples para demostrar conhecimento em Git básico.
 ---
 
 ## Linguagem / Ferramentas
-```HTML / CSS - form<br>
+HTML / CSS - form<br>
 Git<br>
 Markdown - Readme
 
